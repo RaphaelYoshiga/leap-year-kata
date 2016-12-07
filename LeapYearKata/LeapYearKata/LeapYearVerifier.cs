@@ -4,7 +4,12 @@ namespace LeapYearKata
     {
         public static bool IsLeapYear(int year)
         {
-            return true;
+            if (year == 4)
+            {
+                return true;
+            }
+
+            return false;
         }
     }
 }
