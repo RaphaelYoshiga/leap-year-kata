@@ -21,5 +21,13 @@
 
             result.Should().BeFalse();
         }
+
+        [Test]
+        public void ReturnTrue_WhenVerifying_GivenInputIs8()
+        {
+            var result = LeapYearVerifier.IsLeapYear(8);
+
+            result.Should().BeTrue();
+        }
     }
 }
