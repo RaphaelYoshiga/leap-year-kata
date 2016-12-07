@@ -4,7 +4,7 @@ namespace LeapYearKata
     {
         public static bool IsLeapYear(int year)
         {
-            if (year == 4 || year == 8 || year == 16)
+            if (year % 4 == 0)
             {
                 return true;
             }
