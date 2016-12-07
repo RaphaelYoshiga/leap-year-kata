@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYearKata", "LeapYearKata\LeapYearKata.csproj", "{ECCE6D0C-A5CD-47D1-8A71-077B6EEF14A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A9C5CAF3-5D78-4950-9F4B-44E9D113A9DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYearKata.UnitTests", "LeapYearKata.UnitTests\LeapYearKata.UnitTests.csproj", "{FD23D726-211B-4DD4-9BEA-030DC92BE7F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECCE6D0C-A5CD-47D1-8A71-077B6EEF14A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCE6D0C-A5CD-47D1-8A71-077B6EEF14A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCE6D0C-A5CD-47D1-8A71-077B6EEF14A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCE6D0C-A5CD-47D1-8A71-077B6EEF14A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD23D726-211B-4DD4-9BEA-030DC92BE7F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD23D726-211B-4DD4-9BEA-030DC92BE7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD23D726-211B-4DD4-9BEA-030DC92BE7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD23D726-211B-4DD4-9BEA-030DC92BE7F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD23D726-211B-4DD4-9BEA-030DC92BE7F2} = {A9C5CAF3-5D78-4950-9F4B-44E9D113A9DD}
+	EndGlobalSection
+EndGlobal
